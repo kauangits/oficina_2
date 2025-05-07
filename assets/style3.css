@@ -1,0 +1,75 @@
+/* Página de Turismo */
+.main_turism {
+    background-color: #2c3e50;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.main_turism h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "Lora", serif;
+    color: #7b2e2e;
+}
+
+.destination_card {
+    display: flex;
+    background-color: #f8f1e7;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.destination_card img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.destination_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 50%;
+}
+
+.destination_info h3 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.destination_info p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.destination_button {
+    display: inline-block;
+    background-color: #7b2e2e;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.destination_button:hover {
+    background-color: #5c1f1f;
+}
+
